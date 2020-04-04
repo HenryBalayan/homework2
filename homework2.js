@@ -94,9 +94,17 @@ function adacentElemsProduct(arr){
 console.log(adacentElemsProduct([2,4,8,20,8,9]))
 */
 
+//ex5 optimized version
+ /* 
+function arrSeq(arr){
+	   
+return Math.max.apply(null,arr)-Math.min.apply(null,arr)-(arr.length-1)
+	  
+}
 
+console.log(arrSeq([1,7,9,20]))
 
-
+*/
 //ex5
 /*
     function arrMissingSeq(arr){
